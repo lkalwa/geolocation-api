@@ -28,16 +28,10 @@ This is a Ruby on Rails application that provides an API for managing geolocatio
    docker-compose up --build
    ```
 
-4. Set up the database:
+4. Migrate test db and run tests to ensure everything is set up correctly:
 
    ```sh
-   docker-compose --profile setup run db_create
-   ```
-
-5. Migrate db and run tests to ensure everything is set up correctly:
-
-   ```sh
-   docker-compose --profile setup run db_migrate
+   docker-compose --profile setup run test_db_migrate
    docker-compose --profile test run test
    ```
 

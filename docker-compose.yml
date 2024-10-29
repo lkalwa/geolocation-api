@@ -1,23 +1,13 @@
 services:
   web:
     build: .
-    command: bundle exec rails server -b 0.0.0.0 -p 3000
+    command: sh -c "bundle exec rake db:migrate && bundle exec rails server -b 0.0.0.0 -p 3000"
     volumes:
       - .:/app
     ports:
       - "3000:3000"
 
-  db_create:
-    build: .
-    command: bundle exec rake db:create
-    volumes:
-      - .:/app
-    environment:
-      - RAILS_ENV=test
-    entrypoint: ["sh", "-c", "bundle exec rake db:create"]
-    profiles:
-      - test
-  db_migrate:
+  test_db_migrate:
     build: .
     command: bundle exec rake db:migrate
     volumes:
