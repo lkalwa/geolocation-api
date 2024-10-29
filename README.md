@@ -31,13 +31,14 @@ This is a Ruby on Rails application that provides an API for managing geolocatio
 4. Set up the database:
 
    ```sh
-   docker-compose run web rails db:create db:migrate
+   docker-compose --profile setup run db_create
    ```
 
-5. Run the tests to ensure everything is set up correctly:
+5. Migrate db and run tests to ensure everything is set up correctly:
 
    ```sh
-   docker-compose run web bundle exec rspec
+   docker-compose --profile setup run db_migrate
+   docker-compose --profile test run test
    ```
 
 ## Usage

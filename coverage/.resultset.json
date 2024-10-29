@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/spec/models/geolocation_spec.rb": {
+      "/app/spec/models/geolocation_spec.rb": {
         "lines": [
           1,
           null,
@@ -44,7 +44,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/spec/rails_helper.rb": {
+      "/app/spec/rails_helper.rb": {
         "lines": [
           null,
           1,
@@ -124,7 +124,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/config/environment.rb": {
+      "/app/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -133,7 +133,7 @@
           1
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/config/application.rb": {
+      "/app/config/application.rb": {
         "lines": [
           1,
           null,
@@ -170,7 +170,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/config/boot.rb": {
+      "/app/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -178,7 +178,7 @@
           1
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/config/environments/test.rb": {
+      "/app/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -249,7 +249,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/config/initializers/cors.rb": {
+      "/app/config/initializers/cors.rb": {
         "lines": [
           null,
           null,
@@ -269,7 +269,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/config/initializers/filter_parameter_logging.rb": {
+      "/app/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -281,7 +281,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/config/initializers/inflections.rb": {
+      "/app/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -301,7 +301,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/config/routes.rb": {
+      "/app/config/routes.rb": {
         "lines": [
           1,
           null,
@@ -320,7 +320,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/app/models/geolocation.rb": {
+      "/app/app/models/geolocation.rb": {
         "lines": [
           1,
           null,
@@ -330,14 +330,14 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/app/models/application_record.rb": {
+      "/app/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/spec/requests/geolocations_spec.rb": {
+      "/app/spec/requests/geolocations_spec.rb": {
         "lines": [
           1,
           1,
@@ -363,7 +363,6 @@
           null,
           null,
           1,
-          null,
           1,
           1,
           1,
@@ -397,8 +396,8 @@
           1,
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
           null,
@@ -461,7 +460,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/spec/services/ip_stack_spec.rb": {
+      "/app/spec/services/ip_stack_spec.rb": {
         "lines": [
           1,
           null,
@@ -543,7 +542,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/app/services/ip_stack.rb": {
+      "/app/app/services/ip_stack.rb": {
         "lines": [
           null,
           null,
@@ -575,7 +574,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/app/controllers/geolocations_controller.rb": {
+      "/app/app/controllers/geolocations_controller.rb": {
         "lines": [
           1,
           1,
@@ -594,9 +593,9 @@
           null,
           null,
           3,
-          2,
+          0,
           null,
-          1,
+          3,
           null,
           null,
           null,
@@ -629,7 +628,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/app/controllers/application_controller.rb": {
+      "/app/app/controllers/application_controller.rb": {
         "lines": [
           1,
           1,
@@ -645,7 +644,7 @@
           null
         ]
       },
-      "/Users/leszek/Projects/trials/ruby/geolocation_api/lib/errors.rb": {
+      "/app/lib/errors.rb": {
         "lines": [
           null,
           null,
@@ -656,6 +655,6 @@
         ]
       }
     },
-    "timestamp": 1730221455
+    "timestamp": 1730232551
   }
 }

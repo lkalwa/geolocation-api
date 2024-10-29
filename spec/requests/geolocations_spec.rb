@@ -22,7 +22,6 @@ RSpec.describe "Geolocations", type: :request do
   end
 
   describe "GET #show" do
-
     context "with valid params" do
       it "returns a success response" do
         get geolocation_path(geolocation: { url: geolocation.url }), headers: json_headers
@@ -49,12 +48,12 @@ RSpec.describe "Geolocations", type: :request do
     context "with valid params" do
       it "creates a new Geolocation" do
         expect {
-          post geolocations_path(geolocation: valid_attributes), headers: json_headers)
+          post geolocations_path(geolocation: valid_attributes), headers: json_headers
         }.to change(Geolocation, :count).by(1)
       end
 
       it "renders a JSON response with the new geolocation" do
-        post geolocations_path(geolocation: valid_attributes), headers: json_headers)
+        post geolocations_path(geolocation: valid_attributes), headers: json_headers
         expect(response).to have_http_status(:created)
         expect(response.content_type).to eq('application/json; charset=utf-8')
         expect(response.body).to match(/#{valid_attributes[:url]}/)
@@ -63,7 +62,7 @@ RSpec.describe "Geolocations", type: :request do
 
     context "with invalid params" do
       it "renders a JSON response with errors for the new geolocation" do
-        post geolocations_path(geolocation: invalid_attributes), headers: json_headers)
+        post geolocations_path(geolocation: invalid_attributes), headers: json_headers
         expect(response).to have_http_status(:unprocessable_entity)
         expect(response.content_type).to eq('application/json; charset=utf-8')
       end
