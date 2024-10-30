@@ -109,14 +109,6 @@ The application handles the following custom errors:
 - **NetworkError:** Returns a `503 Service Unavailable` status with a message indicating network issues.
 - **IpStackError:** Returns a `422 Unprocessable Entity` status with the error message from the IpStack service.
 
-## Running Tests
-
-To run the test suite, execute:
-
-```sh
-docker-compose run web bundle exec rspec
-```
-
 ## Contributing
 
 1. Fork the repository.
